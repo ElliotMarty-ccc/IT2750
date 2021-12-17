@@ -92,7 +92,7 @@ if chooseToSave:
             moreInfoPath()#displays help if you dont know where to get the absolute path
         while dirToSave.is_absolute() == False:#tells you if the path isnt absolute
             moreInfoPath()
-            dirToSave = str(input("What is the directory you would to save to? Make sure it's the absolute path. Type help if you need help\n       >>>"))
+            dirToSave = str(input("What is the directory you would to save to? Make sure it's the absolute path.\n       >>>"))
             dirToSave = Path(dirToSave)
 
 e = datetime.datetime.now()
